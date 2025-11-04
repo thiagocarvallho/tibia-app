@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.tibia.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_nav_home_to_nav_characters"
+            app:destination="@id/nav_characters" />
+    </fragment>
+
+
+
+    <fragment
+        android:id="@+id/nav_characters"
+        android:name="com.example.tibia.ui.CharacterFragment"
+        android:label="Characters"
+        tools:layout="@layout/fragment_character" />
+
+    <!-- Aqui você pode ir adicionando os outros -->
+    <!--
+    <fragment
+        android:id="@+id/nav_guilds"
+        android:name="com.example.tibia.ui.GuildFragment"
+        android:label="Guilds"
+        tools:layout="@layout/fragment_guild" />
+    -->
+
+</navigation>

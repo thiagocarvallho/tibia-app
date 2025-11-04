@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.Tibia" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Cor de fundo principal -->
+        <item name="colorPrimary">@color/tibia_primary</item>
+        <item name="colorPrimaryVariant">@color/tibia_primary_dark</item>
+        <item name="colorOnPrimary">@color/tibia_text</item>
+
+        <!-- Cor secundária -->
+        <item name="colorSecondary">@color/tibia_accent</item>
+    </style>
+
+</resources>

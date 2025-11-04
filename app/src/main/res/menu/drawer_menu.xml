@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_characters"
+            android:title="Characters"
+            android:icon="@drawable/ic_person" />
+
+        <item
+            android:id="@+id/nav_guilds"
+            android:title="Guilds"
+            android:icon="@drawable/ic_group" />
+
+        <item
+            android:id="@+id/nav_highscores"
+            android:title="Highscores"
+            android:icon="@drawable/ic_star" />
+
+        <item
+            android:id="@+id/nav_houses"
+            android:title="Houses"
+            android:icon="@drawable/ic_home" />
+
+        <item
+            android:id="@+id/nav_worlds"
+            android:title="Worlds"
+            android:icon="@drawable/ic_public" />
+
+        <item
+            android:id="@+id/nav_news"
+            android:title="News"
+            android:icon="@drawable/ic_news" />
+    </group>
+
+</menu>
